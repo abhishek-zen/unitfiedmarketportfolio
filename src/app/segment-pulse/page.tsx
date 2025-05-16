@@ -247,7 +247,7 @@ const MetricCard: React.FC<{ title: string; value: string | number; trend?: numb
     <div className="bg-white shadow-md border border-gray-200 rounded-xl p-6 hover:translate-y-[-2px] transition-all duration-300">
       <div className="flex items-center justify-between">
         <div className="p-2 bg-blue-100 rounded-lg">
-          
+          {icon}
         </div>
         {trend !== undefined && (
           <div className={`flex items-center ${trend >= 0 ? 'text-green-600' : 'text-red-600'}`}>
