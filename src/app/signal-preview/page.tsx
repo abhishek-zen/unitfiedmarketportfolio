@@ -41,7 +41,7 @@ export default function SignalPreviewPage() {
                 <div key={trend.label} className="flex items-center gap-4 bg-white/80 dark:bg-black/40 rounded-lg p-3 shadow">
                   <Badge variant={
                     trend.direction === 'bullish'
-                      ? 'success'
+                      ? 'default'
                       : trend.direction === 'bearish'
                         ? 'destructive'
                         : 'secondary'
